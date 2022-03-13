@@ -16,6 +16,10 @@ function App() {
       text: 'Деплой React-приложения',
       completed: true,
     },
+    {
+      text: 'Проверка автоматической сборки',
+      completed: false,
+    },
   ]);
 
   const onToggleCompleted = (index) => {
